@@ -14,7 +14,6 @@ load_dotenv()
 # Config 
 MODEL_PATH   = "yolov8n.pt"      # auto-downloaded on first run (~6 MB)
 CONF_THRESH  = 0.40              # minimum detection confidence
-GEMINI_MODEL = "gemini-2.0-flash-lite"
 
 # Load YOLO once at startup 
 print("Loading YOLOv8 model …")
@@ -162,9 +161,9 @@ css = """
 
 with gr.Blocks(title="YOLOv8 Scene Narrator") as demo:
 
-    gr.Markdown("# 🎯 YOLOv8 + Gemini Scene Narrator", elem_id="title")
+    gr.Markdown("# 🎯 YOLOv8 + Groq Scene Narrator", elem_id="title")
     gr.Markdown(
-        "Upload any image → **YOLOv8** detects objects → **Gemini** narrates the scene.",
+        "Upload any image → **YOLOv8** detects objects → **Groq** narrates the scene.",
         elem_id="subtitle"
     )
 
