@@ -1,0 +1,10 @@
+*.pt
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+dist/
+.gradio/
+runs/
+.env
+check_models.py
