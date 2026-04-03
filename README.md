@@ -1,3 +1,14 @@
+---
+title: YOLOv8 Scene Narrator
+emoji: 🎯
+colorFrom: green
+colorTo: blue
+sdk: gradio
+sdk_version: "4.0.0"
+app_file: app.py
+pinned: false
+---
+
 # 🎯 YOLOv8 + Groq Scene Narrator
 
 A computer vision + LLM project that detects objects in images using **YOLOv8**
